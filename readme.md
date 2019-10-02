@@ -8,12 +8,12 @@ Create a function that takes an array of integers as an argument and returns an 
 ## Examples
 
 ```js
-countAndSum([10, 2, 15, -2,-10]) 
+countPsumN([10, 2, 15, -2,-10]) 
 //  return => [3,-12]
 ```
 
 ```js
-countAndSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]) 
+countPsumN([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]) 
 //  return => [10,-65]
 ```
 
