@@ -3,8 +3,11 @@
 /*Count of positives / sum of negatives*/
 /*return array of [pos,neg] or emtay []*/
 
+
+/*Not if  function does not  the parameter it will be false not null */ 
+
 function countPsumN(arr) {
-    if (arr === null || arr.length === 0)
+    if (!arr || arr.length === 0)
       return [];
     
     let positive = 0;
@@ -20,7 +23,6 @@ function countPsumN(arr) {
     
     return [positive, negative];
 }
-
 
 
 countPsumN([10, 2, 15, -2,-10]) 
