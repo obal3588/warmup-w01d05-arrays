@@ -4,7 +4,7 @@
 /*return array of [pos,neg] or emtay []*/
 
 
-/*Not if  function does not  the parameter it will be false not null */ 
+/*Not if function is not received arr ,the condation should be false not null   */ 
 
 function countPsumN(arr) {
     if (!arr || arr.length === 0)
